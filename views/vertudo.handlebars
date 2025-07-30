@@ -1,0 +1,23 @@
+<h1>ver tudo</h1>
+
+{{#each resultadoCliente}}
+    <hr>
+    <div>
+        <h3>{{this.name}}</h3>
+        <h3>{{this.descriçao}}</h3>
+       
+    </div>
+    <br>
+   <div style="display: flex;">
+    <a href="/editar?id={{this.id}}">editar</a>
+
+    <form action="/deletar" method="post">
+        <input type="hidden" name="id" value="{{this.id}}">
+        <input type="submit" value="deletar">
+    </form>
+    </div>
+    </div>
+    <br>
+    <hr>
+
+{{/each}}

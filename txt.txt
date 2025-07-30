@@ -1,0 +1,22 @@
+o que eu quero fazer nesse projeto?
+
+-um crud e possivelmente virara o projeto electon
+
+como eu quero a organização dele?
+home:
+    na home eu quero um formulario que pegue as informações dos clientes mas sem pegar informações
+sensiveis, apenas nome e descrição do atendimento.
+
+search:
+    quero que a search seja renderizada em uma pag a parte para poder ter melhor vizualização
+
+form:
+    nome, descrição, data de aniversario.
+
+desing:
+    ainda a decidir
+
+não será online.
+
+SQL
+    higenizar ao terminar os tests
